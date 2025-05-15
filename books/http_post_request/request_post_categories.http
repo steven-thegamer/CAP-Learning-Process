@@ -1,0 +1,9 @@
+POST http://localhost:8080/odata/v4/BooksList/Categories
+Content-Type: application/json
+
+{"name":"Horror",
+"descr":"A fictional account set within a real historical period, often with actual historical events included although rewritten to include some element of magic or fantasy.",
+"children":[{"name":"Body Horror",
+"descr":"A subgenre of horror that focuses on the grotesque and disturbing aspects of the human body, often involving graphic depictions of injury, mutilation, or bodily transformation."}
+,{"name":"Cosmic Horror",
+"descr":"A subgenre of horror fiction that emphasizes the insignificance of humanity in the face of incomprehensible cosmic forces, often featuring ancient, powerful beings and themes of existential dread."}]}
