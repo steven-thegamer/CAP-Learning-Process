@@ -1,0 +1,4 @@
+POST http://localhost:8080/odata/v4/BooksList/Books
+Content-Type: application/json
+
+{"title":"Book1","author":"Author1","desc":"Desc1","category":"Category1", "available" : true}
